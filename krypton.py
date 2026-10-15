@@ -4,7 +4,7 @@ import sys
 def analyse(path_to_file: str, length: int) -> None:
     """
     N-gram frequency analysis for classical ciphers (e.g. OverTheWire
-    Krypton level 2 -> 3).
+    Krypton level 3 -> 4).
 
     Reads a file, removes all whitespace, cuts the text into consecutive
     blocks of `length` characters and counts how often each block occurs.
